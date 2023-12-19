@@ -1,0 +1,5 @@
+valor = float(input("Informe o valor "))
+taxa = float(input("Informe a taxa "))
+tempo =float(input("Informe o tempo "))
+result = valor + (valor * (taxa/100) * tempo)
+print("O valor da prestação em atraso é", result)
